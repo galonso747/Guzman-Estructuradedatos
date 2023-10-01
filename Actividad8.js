@@ -1,12 +1,12 @@
-//crea una clase PilaLimitada que represente una pila de datos con un tamano maximo definido
-//La pila debe tener metodos para PUSH, POP y PEEK, pero si se intenta agregar un elemento
-//cuando ya esta llena, debe lanzar un error
+/*crea una clase PilaLimitada que represente una pila de datos con un tamano maximo definido
+La pila debe tener metodos para PUSH, POP y PEEK, pero si se intenta agregar un elemento
+cuando ya esta llena, debe lanzar un error
 
-//let miPila = new PilaLimitada(3); // Pila con capacidad para 3 elementos
-//miPila.push("A");
-//miPila.push("B");
-//miPila.push("C");
-//miPila.push("D"); // Debería lanzar un error, ya que la pila está llena
+let miPila = new PilaLimitada(3); // Pila con capacidad para 3 elementos
+miPila.push("A");
+miPila.push("B");
+miPila.push("C");
+miPila.push("D"); // Debería lanzar un error, ya que la pila está llena */
 
 class PilaLimitada {
     constructor() {
@@ -52,5 +52,4 @@ try {
 } catch (error) {
     console.error(error.message);
 }
-
 
